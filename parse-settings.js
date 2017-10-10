@@ -21,7 +21,7 @@ function parseSettings(str) {
     type = values[3];
     value = values[4];
 
-    if (parent.length) {
+    if (parent instanceof Array) {
       key = parseInt(key, 10);
     }
 
