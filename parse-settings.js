@@ -1,5 +1,5 @@
 var matchLine = /^\s*((\w+) : )?(<\w+>)?\s?(.*)$/;
-var matchNumeric = /\d+(\.\d*)?/;
+var matchNumeric = /^\d+(\.\d*)?$/;
 
 // This technique of parsing is fairly naive, but it works pretty well, so eh.
 function parseSettings(str) {
